@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap');
+html {
+  background-image: url("../images/background.jpg");
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+.content {
+  background-color: rgb(242, 210, 189, 0.3);
+}
